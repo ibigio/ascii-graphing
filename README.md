@@ -6,6 +6,8 @@ A tiny, dependency-free ASCII graphing library made to display arbitrary 2D func
 
 ### Simple Sine Wave
 ```
+import ascii_graphing as ag
+
 c = ag.Canvas()
 c.add_func(math.sin)
 c.flush()
