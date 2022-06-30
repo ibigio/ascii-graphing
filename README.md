@@ -69,6 +69,7 @@ O                                O           O  O                               
 ### Layering Custom Functions
 ```
 import ascii_graphing as ag
+import math
 
 c = ag.Canvas(height=20, width=20, border=True)
 c.add_func(lambda x: x + 1, draw_char='-')
